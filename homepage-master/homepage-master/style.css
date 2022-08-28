@@ -45,9 +45,9 @@ span.title {
 }
 
 .intro_bg{
-  background-image: url("image/intro.png");
-  width: 100%;
-  height: 714px;
+  background: rgb(60, 205, 60);
+  height: 500px;
+  width:1280px;
 }
 
 .header{
@@ -109,11 +109,11 @@ span.title {
 }
 
 .amount > li:not(:last-child) > div{
-  border-right:1px solid #000;
+  border-right:1px solid #E1E1E1;
 }
 .intro_text{
   width:100%;
-  margin:231px auto 231px auto;
+  margin:150px auto 231px auto;
   text-align: center;
 }
 .intro_text > h1,
@@ -124,10 +124,10 @@ span.title {
 /* main_text0 */
 
 .main_text0{
-  width: 100%;
+  width:1280px;
   height:601px;
   margin-top:-132px;
-  background: #f1f2f3;
+  background: #f1f3f2;
 }
 .main_text0 > h1{
   padding-top:116px;
@@ -146,7 +146,7 @@ span.title {
 }
 .icons > li {
   flex: 1;
-  background: white;
+  background: #fff;
   margin-top:49px;
   height:302px;
   text-align: center;
@@ -177,7 +177,7 @@ span.title {
 /* main_text1*/
 
 .main_text1{
-  width: 100%;
+  width:1280px;
   height:659px;
   /* margin-top:-132px; */
   /* background: #2F7AF4 */
@@ -205,7 +205,7 @@ span.title {
 
 /* main_text2 */
 .main_text2 {
-  width:100%;
+  width:1280px;
   height:418px;
   background-image: url("image/contact.png");
 }
@@ -247,4 +247,3 @@ span.title {
   flex:9;
   color: #fff;
 }
-
